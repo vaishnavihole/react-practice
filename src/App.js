@@ -6,9 +6,9 @@ function App() {
     <>
     <h1 className='app-header'>Chocolate App</h1>
 
-      <Chocolate title="Kharbuj" description="Khabuj is fruit"/>
-      <Chocolate title="Dairy Milk" description="dairy milk is sweet"/>
-      <Chocolate title="Perk" description="perk is chocolate"/>
+      <Chocolate title="Kharbuj" description="Khabuj is fruit" price="10"/>
+      <Chocolate title="Dairy Milk" description="dairy milk is sweet" price="10"/>
+      <Chocolate title="Perk" description="perk is chocolate" price="10"/>
     </>
   )
 }
