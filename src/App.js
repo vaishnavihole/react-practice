@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Chocolate from './Chocolate';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <h1 className='app-header'>Chocolate App</h1>
+
+      <Chocolate title="Kharbuj" description="Khabuj is fruit"/>
+      <Chocolate title="Dairy Milk" description="dairy milk is sweet"/>
+      <Chocolate title="Perk" description="perk is chocolate"/>
+    </>
+  )
 }
 
 export default App;
+
